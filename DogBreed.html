@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Dog Breeds</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="DogBreed.css">
+  </head>
+  <body>
+    <header>
+      <h1>Dog Breed Information</h1>
+    </header>
+    <div id = "mainDiv">
+      <div id = "selectDiv">
+        Choose a Breed: 
+        <select id = "select"></select>
+      </div>
+      <div id = "bodyDiv">
+        <div id = "detailsDiv">
+          <div id = "nameDiv">
+            <h1 id = "dogName"></h1>
+          </div>
+          <div>
+            <h2>Description</h2>
+            <p id = "description"></p>
+          </div>
+          <div>
+            <h2>Origins</h2>
+            <p id = "origins"></p>
+          </div>
+          <div>
+            <h2>Right for You?</h2>
+            <p id = "rightForYou"></p>
+          </div>
+        </div>
+        <div id = "imageDiv">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Including the non-minified (not for production) jQuery library from the CDN -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="DogBreed.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    
+}
+h2 {
+    color: DarkCyan;
+}
+#bodyDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+#detailsDiv {
+    flex: 5;
+    order: 4;
+    left: 0;
+    padding: 0.5em;
+}
+#imageDiv {
+    flex: 4;
+    order: 3;
+    padding: 0.5em;
+    right: 0;
+}
+header {
+    width: 100%;
+    border-bottom: solid;
+    text-align: center;
+    color: black;
+    padding: 0.5em;
+}
+#selectDiv, #select {
+    padding: 0.5em;
+}
+img {
+    padding: 0.5em;
+    position: absolute;
+
+}
